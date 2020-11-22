@@ -1,6 +1,5 @@
 package AnimalsSystemVol2;
 
-import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -42,7 +41,7 @@ public class AnimalOperation {
         return;
     }
 
-    public static void editAnimals(ArrayList<Animals> list) throws FileNotFoundException {
+    public static void editAnimals(ArrayList<Animals> list){
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入需要修改的动物编号：");
         String sid = sc.next();
